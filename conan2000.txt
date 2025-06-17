@@ -1,0 +1,484 @@
+
+ .ahla-montad br {
+        display: none;
+    }
+
+    td.staff-rank {
+        text-align: left;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    table.staff-list {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+    .staff-list {
+        margin-top: 50px;
+        width: 100%;
+        border-spacing: 0
+    }
+
+    .staff-list .staff-rank img {
+      float: right;
+    }
+
+    .staff-description {
+        background-color: #EF3333;
+        color: #fff;
+        font-family: sans-serif;
+        padding: 5px 10px
+    }
+
+    .staff-description.mode {
+        background-color: #68b800
+    }
+
+    .staff-description.aida {
+        background-color: #F5AE42
+    }
+
+    .staff-description.crea {
+        background-color: #787DEA
+    }
+
+    .staff-description.dev {
+        background-color: #FE934C
+    }
+
+    .staff-description.redac {
+        background-color: #AF5F5F
+    }
+
+    .newStaffList {
+        font-weight: 700;
+        table-layout: fixed;
+        text-align: center;
+        width: 100%;
+        border-spacing: 0;
+        border: 1px solid #EEE
+    }
+
+    .newStaffList.admin,
+    .newStaffList.admin a {
+        color: #EF3333
+    }
+
+    .newStaffList.mode,
+    .newStaffList.mode a {
+        color: #68b800
+    }
+
+    .newStaffList.aida,
+    .newStaffList.aida a {
+        color: #F5AE42
+    }
+
+    .newStaffList.crea,
+    .newStaffList.crea a {
+        color: #787DEA
+    }
+
+    .newStaffList.dev,
+    .newStaffList.dev a {
+        color: #FE934C
+    }
+
+    .newStaffList.redac,
+    .newStaffList.redac a {
+        color: #AF5F5F
+    }
+
+    .newStaffList tr td {
+        padding-top: 5px;
+        background-color: #F7F7F7
+    }
+
+    .newStaffList tr td:nth-child(2n+2) {
+        background-color: #F2F2F2
+    }
+
+    .newStaffList tr:not(.newStaffListPM) img {
+        display: block !important;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        margin: auto;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 -0 1px rgba(0, 0, 0, 0.3);
+        margin-bottom: 10px
+    }
+
+    .newStaffListPM td {
+        color: #555;
+        cursor: default;
+        font-family: FontAwesome;
+        font-size: 16px;
+        font-weight: 400;
+        vertical-align: top;
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+
+    .newStaffListPM td a {
+        color: #555 !important
+    }
+
+    .newStaffListPM td::after {
+        font-size: 12px;
+        left: 8px;
+        margin-left: -12px;
+        position: relative;
+        top: -5px;
+        background-color: #FAFAFA;
+        border-radius: 50%
+    }
+
+    .newStaffListPM td.PMOff::after {
+        content: '\f057';
+        color: #E54732
+    }
+
+    .newStaffListPM td.PMOn::after {
+        content: '\f058';
+        color: #60a53a
+    }
+
+    .defaultFooterLink a[href^="/abuse?page"] {
+        display: none
+    }
+
+    .trame {
+        border-collapse: collapse;
+        border-radius: 0 10px 10px 0;
+        margin-left: -20px;
+        margin-top: 20px;
+        position: relative;
+        width: 90%
+    }
+
+    .trame ._l {
+        color: transparent;
+        font-size: .1px;
+        text-align: center;
+        vertical-align: middle;
+        width: 100px;
+        border-right: 1px solid rgba(255, 255, 255, 0.2)
+    }
+
+    .trame ._m {
+        color: #fff;
+        font-weight: 700;
+        padding: 15px;
+        text-align: justify;
+        vertical-align: top;
+        font-family: sans-serif
+    }
+
+    .trame::before {
+        border-style: solid;
+        border-width: 0 4px 7px 0;
+        bottom: -7px;
+        content: " ";
+        display: block;
+        height: 0;
+        left: 6px;
+        position: absolute;
+        width: 0
+    }
+
+    .trame.admin::before {
+        border-color: transparent #b90000 transparent transparent
+    }
+
+    .trame.admin {
+        background-color: #EF3333
+    }
+
+    .trame.mode::before {
+        border-color: transparent #437500 transparent transparent
+    }
+
+    .trame.mode {
+        background-color: #68b800
+    }
+
+    .trame.aida::before {
+        border-color: transparent #CC7202 transparent transparent
+    }
+
+    .trame.aida {
+        background-color: #F5AE42
+    }
+
+    .trame.crea::before {
+        border-color: transparent #1D24B8 transparent transparent
+    }
+
+    .trame.crea {
+        background-color: #787DEA
+    }
+
+    .trame.dev::before {
+        border-color: transparent #353535 transparent transparent
+    }
+
+    .trame.dev {
+        background-color: #2e3133
+    }
+
+    .trame.reda::before {
+        border-color: transparent #994C4C transparent transparent
+    }
+
+    .trame.reda {
+        background-color: #AF5F5F
+    }
+
+    .trame a {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 3px;
+        color: #333;
+        display: inline-block;
+        margin-bottom: 3px;
+        padding: 2px 4px
+    }
+
+    .trame ._m img {
+        vertical-align: middle
+    }
+
+    .prettyprint {
+        font-family: Menlo, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+        font-size: 12px;
+        line-height: 1.5
+    }
+
+    .pln {
+        color: #c5c8c6
+    }
+
+    .tuto-off,
+    .tuto-jur,
+    .tuto-jur-contain,
+    .tuto-ast-off {
+        background-color: #f7f7f7;
+        border-right: 1px solid #ddd;
+        margin-left: -10px;
+        position: relative;
+        width: 100%;
+        border-spacing: 0
+    }
+
+    div.postbody .tuto-off:first-child,
+    div.postbody .tuto-ast-off:first-child,
+    div.postbody .tuto-jur {
+        margin-top: 20px;
+        border-radius: 0 10px 0 0
+    }
+
+    .tuto-title,
+    .tuto-jur-title,
+    .tuto-ast-title {
+        background: #39c url(https://i.imgur.com/d8gCGFF.png) no-repeat scroll 0 -4px !important;
+        border-radius: 0 10px 0 0;
+        border-top: 2px solid #17a;
+        color: #fff;
+        font-family: sans-serif, "FontAwesome";
+        font-size: 25px;
+        font-weight: 700;
+        height: 100px;
+        padding-left: 100px;
+        text-shadow: 1px 0 0 #17a;
+        line-height: 1em
+    }
+
+    .tuto-jur-title {
+        background-color: #e34839 !important;
+        border-top: 2px solid #dd2e20;
+        text-shadow: 1px 0 0 #dd2e20
+    }
+
+    .tuto-ast-title {
+        background-color: #89ba5b !important;
+        border-top: 2px solid #57983a;
+        text-shadow: 1px 0 0 #57983a
+    }
+
+    .tuto-contain,
+    .tuto-jur-contain td {
+        border-left: 75px solid #eee;
+        border-right: 20px solid #eee;
+        padding: 10px 20px
+    }
+
+    .tuto-contain h2.post-content,
+    .tuto-jur-contain td h2.post-content {
+        background-color: #eee;
+        border-bottom: 1px solid #ddd !important;
+        font-family: sans-serif, "FontAwesome";
+        font-size: 1.5em;
+        margin-left: -20px;
+        margin-right: -20px;
+        padding: 10px;
+        margin-bottom: 15px;
+        counter-increment: chapter;
+        counter-reset: subpart;
+        color: #333 !important
+    }
+
+    .tuto-contain h3.post-content,
+    .tuto-jur-contain td h3.post-content {
+        border-bottom: 1px solid #333;
+        color: #333;
+        counter-increment: subpart;
+        font-family: sans-serif, "FontAwesome";
+        padding-bottom: 5px;
+        text-transform: unset
+    }
+
+    .tuto-contain h4.post-content,
+    .tuto-jur-contain td h4.post-content {
+        color: #444;
+        counter-increment: subsubpart;
+        padding-bottom: 5px;
+        margin-left: 20px;
+        border-bottom: 1px solid #555;
+        margin-bottom: 5px;
+        font-weight: 400 !important;
+        font-style: italic;
+        font-size: 1.1em
+    }
+
+    .tuto-contain h2.post-content::before,
+    .tuto-jur-contain td h2.post-content::before {
+        background-color: #333;
+        border-radius: 31px;
+        box-sizing: border-box;
+        color: #fff;
+        content: counter(chapter, decimal);
+        display: inline-block;
+        height: 33px;
+        margin-left: -50px;
+        margin-right: 15px;
+        text-align: center;
+        width: 33px
+    }
+
+    .tuto-contain h3.post-content,
+    .tuto-jur-contain td h3.post-content {
+        counter-reset: subsubpart
+    }
+
+    .tuto-contain:not(.nocount) h3.post-content:before,
+    .tuto-jur-contain:not(.nocount) td h3.post-content::before {
+        content: counter(chapter) "."counter(subpart) ". "
+    }
+
+    .tuto-contain:not(.nocount) h4.post-content::before,
+    .tuto-jur-contain:not(.nocount) td h4.post-content::before {
+        content: counter(chapter) "."counter(subpart) "."counter(subsubpart) ". "
+    }
+
+    .tuto-contain.reset,
+    .tuto-jur-contain.reset {
+        counter-reset: chapter
+    }
+
+    .tuto-footer,
+    .tuto-ast-footer {
+        background-color: #333;
+        border-radius: 0 0 10px;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: .9em;
+        margin-left: -10px;
+        margin-bottom: 15px;
+        width: 100%
+    }
+
+    .tuto-footer-noel {
+        background-color: #961613;
+        border-radius: 0 0 10px;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: .9em;
+        margin-left: -10px;
+        margin-bottom: 15px;
+        width: 100%
+    }
+
+    .tuto-copy,
+    .tuto-ast-copy {
+        padding: 10px 20px
+    }
+
+    .tuto-copy::before,
+    .tuto-ast-copy::before {
+        content: "\f129";
+        float: right;
+        font-family: "FontAwesome";
+        font-size: 6em;
+        margin-top: 28px
+    }
+
+    ul table.tag {
+        background-color: #d8ecf5;
+        border-radius: 4px;
+        color: #2d8cbb !important;
+        font-weight: 600;
+        padding: 4px 5px
+    }
+
+    .tuto-info-green {
+        background-color: #b7e5a0;
+        color: #000;
+        width: 100%
+    }
+
+    .tuto-info-red {
+        background-color: #d94b32;
+        color: #fff;
+        width: 100%;
+        font-size: 17px;
+        font-weight: 900;
+        line-height: 160%;
+      margin-top: 100px;
+    }
+    .tutosList {
+        background-color: #369FCF;
+        color: #fff;
+        border-bottom: 3px solid #2D8CBB;
+        font-family: sans-serif, FontAwesome;
+        width: 100%;
+        padding: 5px 10px;
+        margin-left: -10px
+    }
+
+    .postbody img[longdesc="195"],
+    .postbody img[longdesc="196"] {
+        vertical-align: middle
+    }
+
+    table.list-in-tutos {
+        width: 100%;
+        border: 0;
+        border-spacing: 0
+    }
+
+    table.list-in-tutos td {
+        padding: 5px;
+        border-bottom: 1px solid #DDD
+    }
+
+    table.list-in-tutos tr.list-in-tutos-header td {
+        color: #333;
+        background-color: #EEE
+    }
+
+
+
